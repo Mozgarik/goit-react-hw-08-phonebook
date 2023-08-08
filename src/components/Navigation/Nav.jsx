@@ -23,7 +23,7 @@ const Nav = () => {
                             <button className={s.logOut} onClick={() => {
                                 dispatch(removeUser());
                                 if (isAuth) {
-                                    navigate('/Phonebook')
+                                    navigate('/goit-react-hw-08-phonebook/')
                                 }
 
                                 }}>Log out from: <br /> <span className={s.email}>{email}</span>

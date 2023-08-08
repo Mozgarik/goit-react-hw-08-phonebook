@@ -22,7 +22,7 @@ const Login = () => {
                 id: user.user.uid,
                 token: user.user.stsTokenManager.accessToken,
             }))
-            navigate('/Phonebook')
+            navigate('/goit-react-hw-08-phonebook/')
         })
         .catch(() => alert('Invlalid user!'))
 

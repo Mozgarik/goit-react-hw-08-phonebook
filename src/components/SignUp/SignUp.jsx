@@ -22,7 +22,7 @@ const SignUp = () => {
                 id: user.uid,
                 token: user.accesToken,
             }))
-            navigate('/Phonebook')
+            navigate('/goit-react-hw-08-phonebook/')
         })
         .catch(console.error)
 
