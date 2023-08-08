@@ -11,7 +11,7 @@ export const App = () => {
 
 
       <Routes>
-        <Route path="/Phonebook" element={<HomePage/>} />
+        <Route path="/goit-react-hw-08-phonebook/" element={<HomePage/>} />
         <Route path="/login" element={<LoginPage/>} />
         <Route path="/register" element={<RegisterPage/>} />
       </Routes>
