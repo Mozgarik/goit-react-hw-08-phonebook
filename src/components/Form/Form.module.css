@@ -1,0 +1,61 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+.fInput {
+    margin-left: auto;
+    margin-right: auto ;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.29);
+    border: none;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}
+
+
+.sInput {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto ;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.29);
+    border: none;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(88, 88, 88)
+}
+
+
+.button {   
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 0 0 40px 40px #a4a4a4 inset, 0 0 0 0 #939393;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    transition: .15s ease-in-out;
+  }
+  .button:hover {
+    box-shadow: 0 0 10px 0 #aeaeae inset, 0 0 10px 4px #b3b3b3;
+    color: #6b6b6b;
+  }
+
+  
