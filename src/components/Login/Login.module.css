@@ -1,0 +1,43 @@
+.loginForm {
+    border: 2px solid rgb(134, 134, 134);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.28);
+    background-color: rgb(217, 217, 217);
+    }
+
+    
+.login {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(95, 95, 95);
+}
+
+.l {
+    
+    color: rgb(242, 0, 52);
+}
+
+.forwarding {
+    opacity: 0.7;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(84, 84, 84);
+  }
+
+  .link {
+    margin-left: 5px;
+    font-size: 20px;
+    color: rgb(45, 45, 45);
+  }
